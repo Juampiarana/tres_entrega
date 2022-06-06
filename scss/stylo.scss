@@ -1,18 +1,21 @@
-* {
-  margin: 0%;
-  padding: 0%; }
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
 body {
-  /*animacion*/ }
-  body header .inicio {
-    background-image: linear-gradient(to right, #e52d27, #b31217);
+    header{
+.inicio {
+    background-image: linear-gradient(to right, #e52d27, #b31217 );
     height: 60px;
     animation-name: texto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
     animation-duration: 1s;
-    border: solid; }
-  body header .menuPrincipal {
+    border: solid;
+}
+
+.menuPrincipal{ 
     background-image: linear-gradient(to right, #e52d27, #b31217);
     backface-visibility: visible;
     font-size: 15px;
@@ -23,50 +26,69 @@ body {
     animation-name: texto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
-    animation-duration: 1s; }
-  body header .item {
+    animation-duration: 1s;
+}
+ 
+.item{
     display: inline;
-    color: black; }
-  body header .item:hover {
+    color: black;
+}
+
+.item:hover {
     display: inline;
-    font-size: medium; }
-  body .presentacion {
+    font-size: medium;
+}
+    }
+
+.presentacion {
     display: grid;
     grid-template-areas: presentacion;
     background-image: linear-gradient(to right, #e52d27, #b31217);
-    text-align: center;
+    text-align: center;   
     border: solid;
     animation-name: texto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
-    animation-duration: 1s; }
-  body nav {
+    animation-duration: 1s;
+}
+
+
+nav{
     grid-area: nav;
-    height: 140px; }
-  body .contacto {
+    height: 140px;
+}
+.contacto {
     display: grid;
     grid-template-areas: contacto;
-    text-align: center; }
-  body .enunc {
-    display: grid;
-    grid-template-areas: contacto;
-    background-image: linear-gradient(to right, #ED213A, #93291E);
     text-align: center;
-    border: black solid; }
-  body .introCot {
+    
+}
+.enunc {
+ display: grid;
+ grid-template-areas: contacto;
+ background-image: linear-gradient(to right, #ED213A, #93291E);
+ text-align: center;
+ border: black solid;
+}
+
+.introCot {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     animation-name: texto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
-    animation-duration: 1s; }
-  body .introTes {
+    animation-duration: 1s;
+}
+
+.introTes {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     animation-name: texto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
-    animation-duration: 1s; }
-  body .sponsors {
+    animation-duration: 1s;
+}
+
+.sponsors {
     display: grid;
     grid-template-areas: sponsors;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -76,13 +98,17 @@ body {
     animation-name: texto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
-    animation-duration: 1s; }
-  body .linksp {
+    animation-duration: 1s;
+}
+.linksp{
     color: black;
-    font-size: small; }
-  body .linksp:hover {
-    font-size: medium; }
-  body .footer {
+    font-size: small;
+}
+.linksp:hover{
+    font-size: medium;
+}
+
+.footer {
     display: grid;
     grid-template-areas: footer;
     font-size: smaller;
@@ -92,10 +118,17 @@ body {
     animation-name: texto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
-    animation-duration: 1s; }
+    animation-duration: 1s;
+}
 
+/*animacion*/
 @keyframes texto {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 100; } }
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+}
