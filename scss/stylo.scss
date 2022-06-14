@@ -4,10 +4,19 @@
 }
 
 body {
+    background-color: bisque;
+    animation-name: texto;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    a{
+        text-decoration: none;
+        color: black;
+    }
     header{
 .inicio {
     background-image: linear-gradient(to right, #e52d27, #b31217 );
-    height: 60px;
+    height: 70px;
     animation-name: texto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
@@ -16,11 +25,12 @@ body {
 }
 
 .menuPrincipal{ 
-    background-image: linear-gradient(to right, #e52d27, #b31217);
+    /*background-image: linear-gradient(to right, #e52d27, #b31217 );
     backface-visibility: visible;
-    font-size: 15px;
+    box-shadow: none;*/
+    font-size: smaller;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: right;
+    text-align: end;
     grid-area: nav;
     display: grid;
     animation-name: texto;
@@ -91,6 +101,7 @@ nav{
 .sponsors {
     display: grid;
     grid-template-areas: sponsors;
+    text-decoration: none ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: small;
     height: 150px;
@@ -109,19 +120,23 @@ nav{
 }
 
 .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     display: grid;
     grid-template-areas: footer;
-    font-size: smaller;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-image: linear-gradient(to right, #B79891, #94716B);
+    color: #ED213A;
+    background-color: black;
     animation-name: texto;
     animation-iteration-count: initial;
     animation-timing-function: ease-in;
     animation-duration: 1s;
 }
 
-/*animacion*/
+
 @keyframes texto {
     0%{
         opacity: 0;
