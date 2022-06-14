@@ -20,9 +20,6 @@ body {
     animation-duration: 1s;
     border: solid; }
   body header .menuPrincipal {
-    /*background-image: linear-gradient(to right, #e52d27, #b31217 );
-    backface-visibility: visible;
-    box-shadow: none;*/
     font-size: smaller;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: end;
