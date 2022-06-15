@@ -20,6 +20,17 @@ body {
     animation-duration: 1s;
     border: solid; }
   body header .menuPrincipal {
+    background-image: linear-gradient(to right, #e52d27, #b31217);
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: end;
+    grid-area: nav;
+    display: grid;
+    animation-name: texto;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-in;
+    animation-duration: 1s; }
+  body header .menuPrincipalic {
     font-size: smaller;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: end;
